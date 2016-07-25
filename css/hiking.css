@@ -1,0 +1,36 @@
+
+body{
+    background-color:LightBlue;
+}
+   
+
+.jumbo-1 {
+    background-size:cover;
+    background-image: url(../images/fah3.jpg);
+    text-align: center;
+    color: #FAFAFA;
+    margin-bottom: 10%;
+    
+}
+#hello {text-align: center;
+    color: #0000cc;
+    
+}
+.game {text-align: center;
+    color: #F0AE16;
+    font-size:  250%;
+}
+.game1 {text-decoration: none;
+    color: A80000;
+    
+}
+        
+.dw {margin-top: 5%;
+    color:#59A644;
+    
+}    
+.act {color: #0000cc;
+    
+}
+    
+    

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Tell us what you like</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="css/hiking.css" type="text/css" />
+    </head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Nature</a>
+            
+            
+            <!--button for three lines-->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+          </div><!--Navbar-header ends-->
+        
+          <div class="collapse navbar-collapse" id="myNavbar">
+            
+            
+            <ul class="nav nav-tabs nav-justified">
+              <li><a href="index.html">Home</a></li>
+              <li> <a href="harriman.html">Harriman State Park</a></li>
+              <li class="active"><a href="fahnestock.html">Fahnestock State Park</a></li>
+              <li><a href="form.html">Tell us what do you like</a></li>
+             </ul><!--Navbar ul ends-->
+          </div><!--div holding ul list ends-->
+        </div><!--container-fluid ends-->
+      </nav><!--Navbar ends-->
+
+              
+            
+        <h2>Tell us what you like in parks</h2>
+        <form>
+             <!--name-->
+          <div class="form-group">
+             <label for="exampleInputName1">Name</label>
+             <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+             </div><!--end of form group name-->
+                       
+          
+             <!--email-->
+          <div class="form-group">
+             <label for="exampleInputEmail1">Email Address</label>
+             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+             </div><!--end of form group email-->
+             
+             </form>
+  
+  
+  
+<div class="widget">
+
+
+  <fieldset>
+    <legend>Which park do you like better  </legend>
+    <label for="radio-1">Harriman State Park</label>
+    <input type="radio" name="radio-1" id="radio-1">
+    <label for="radio-2">Fahnestock Memorial State Park</label>
+    <input type="radio" name="radio-1" id="radio-2">
+
+  </fieldset>
+ 
+
+  <fieldset>
+    <legend>What do you like to do in a park </legend>
+    <label for="checkbox-1">Hiking</label>
+    <input type="checkbox" name="checkbox-1" id="checkbox-1">
+    <label for="checkbox-2">Swimming or water sports</label>
+    <input type="checkbox" name="checkbox-2" id="checkbox-2">
+    <label for="checkbox-3">Fishing</label>
+    <input type="checkbox" name="checkbox-3" id="checkbox-3">
+    <label for="checkbox-4">Camping</label>
+    <input type="checkbox" name="checkbox-4" id="checkbox-4">
+    <label for="checkbox-5">Sking or winter sports</label>
+    <input type="checkbox" name="checkbox-5" id="checkbox-5">
+  </fieldset>
+ </div>
+ <form>
+   
+       <br><p>Any other comments:  </p><br>
+          <textarea rows="4" cols="50" name="comments" required></textarea>   
+ 
+          <button type="button" class="btn btn-lg" value="Submit Button">Submit</button>
+          <button type="button" class="btn btn-lg" value="Reset Button">Reset</button>
+
+             
+        </form>
+  
+ 
+       <script rel="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>  
+        <script rel="javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <script rel="javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+        <script type="text/javascript" src="js/hiking.js"></script>
+        
+          <script>
+            $( function() {
+            $( "input" ).checkboxradio({
+             icon: false
+            });
+            } );
+  </script>
+</body>
+</html>
