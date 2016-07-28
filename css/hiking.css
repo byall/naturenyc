@@ -10,26 +10,42 @@ body{
     text-align: center;
     color: #FAFAFA;
     margin-bottom: 10%;
+    font-family: 'Shrikhand', cursive;
+    margin-top: 6%;
     
 }
 #hello {text-align: center;
-    color: #0000cc;
+    color: #FFF;
+    font-family: 'Shrikhand', cursive;
     
 }
 .game {text-align: center;
     color: #F0AE16;
     font-size:  250%;
+     font-family: 'Galada', cursive;
 }
-.game1 {text-decoration: none;
+.game1 {
     color: A80000;
+    font-family: 'Galada', cursive;
+}
+    
+.title {text-align: center;
+    color: #20BA68;
+    font-family: 'Shrikhand', cursive;
     
 }
+    
         
 .dw {margin-top: 5%;
     color:#59A644;
     
 }    
 .act {color: #0000cc;
+    font-family: 'Galada', cursive;
+    
+    
+}
+.li {font-family: 'Galada', cursive;
     
 }
     
