@@ -3,7 +3,10 @@ body{
     background-color:LightBlue;
 }
    
-
+.nav {background-color: #0000cc;
+    font-family: 'Lalezar', cursive;
+    font-size: 150%;
+}
 .jumbo-1 {
     background-size:cover;
     background-image: url(../images/fah3.jpg);
