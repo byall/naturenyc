@@ -22,6 +22,11 @@ body{
     font-family: 'Shrikhand', cursive;
     
 }
+.carousel-caption-title {text-align: center;
+    font-size: 200%;
+    font-family: 'Shrikhand', cursive;
+    
+} 
 .game {text-align: center;
     color: #F0AE16;
     font-size:  250%;
